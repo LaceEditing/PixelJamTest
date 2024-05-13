@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6848F465-F76F-48C7-BBB3-A07FCDB94FA9}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6848F465-F76F-48C7-BBB3-A07FCDB94FA9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Air__Suction__Air_Pump__Pull_SND66813_1" ID="{C0E24758-BD14-4144-8F8F-762E708F6FEE}">
+					<ChildrenList>
+						<Action Name="" ID="{BDDD8436-975F-42A8-832D-1504A0F96EF1}" ShortID="512418984">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Air, Suction, Air Pump, Pull SND66813 1" ID="{6BDBD0A0-60E6-4701-8D96-95F45BBDD9D8}" WorkUnitID="{4AECE24B-3B16-4506-8E20-06B44FCF93C4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

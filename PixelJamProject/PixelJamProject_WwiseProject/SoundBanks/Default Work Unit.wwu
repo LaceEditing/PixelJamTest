@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0EDCD972-75E0-4AB8-B2E6-C058E546456C}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0EDCD972-75E0-4AB8-B2E6-C058E546456C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{E2FB2D17-99B2-4C5F-8CA5-52518DC86B33}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Air__Suction__Air_Pump__Pull_SND66813_1" ID="{C0E24758-BD14-4144-8F8F-762E708F6FEE}" WorkUnitID="{6848F465-F76F-48C7-BBB3-A07FCDB94FA9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
