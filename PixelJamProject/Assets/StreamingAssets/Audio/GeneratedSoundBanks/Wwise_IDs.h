@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AIR__SUCTION__AIR_PUMP__PULL_SND66813_1 = 1786944035U;
+        static const AkUniqueID PLAY_PLAYER_SHOOT = 48490325U;
     } // namespace EVENTS
 
     namespace BANKS

@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	48490325	Play_player_shoot			\Default Work Unit\Play_player_shoot	
 	1786944035	Play_Air__Suction__Air_Pump__Pull_SND66813_1			\Default Work Unit\Play_Air__Suction__Air_Pump__Pull_SND66813_1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	78290532	Air, Suction, Air Pump, Pull SND66813 1	C:\Users\Lemos\Dropbox\Game Development\Github Collabs\GameJams\PixelJamTest\PixelJamProject\PixelJamProject_WwiseProject\.cache\Windows\SFX\Air, Suction, Air Pump, Pull SND66813 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Air, Suction, Air Pump, Pull SND66813 1		159212
+	667155639	player_shoot	C:\Users\Lemos\Dropbox\Game Development\Github Collabs\GameJams\PixelJamTest\PixelJamProject\PixelJamProject_WwiseProject\.cache\Windows\SFX\Soundly Audio\Fire by Gemmellness Id-181356_5F7216EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\player_shoot		47168
 

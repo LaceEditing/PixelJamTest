@@ -22,13 +22,17 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{053E3840-F17C-7C86-ABFF-E6B3349C469B}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B4749E98-DC98-E771-D3DD-C84A2418FFFB}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="78290532" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Air, Suction, Air Pump, Pull SND66813 1.wav</ShortName>
 					<CachePath>SFX/Air, Suction, Air Pump, Pull SND66813 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="667155639" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Audio\Fire by Gemmellness Id-181356.wav</ShortName>
+					<CachePath>SFX/Soundly Audio/Fire by Gemmellness Id-181356_5F7216EE.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -37,8 +41,13 @@
 						<MediaRef Id="78290532"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="48490325" Name="Play_player_shoot" DurationType="OneShot" DurationMin="0.26682854" DurationMax="0.26682854">
+					<MediaRefs>
+						<MediaRef Id="667155639"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6B1356DA-B6E6-38B1-3141-DB466EF3B0C3}</FileHash>
+	<FileHash>{2BFD625B-BFEB-E7B9-AF27-7C45103C623D}</FileHash>
 </SoundBanksInfo>
