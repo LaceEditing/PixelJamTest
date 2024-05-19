@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public float lastVerticalVector;
 
+    public Animator animator;
+
     //References
     Rigidbody2D rb;
 
@@ -23,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        
         InputManagement();
     }
 
@@ -47,6 +50,8 @@ public class PlayerMovement : MonoBehaviour
         {
             lastVerticalVector = moveDir.y;
         }
+        animator.SetFloat("Speedlr", moveX);
+        animator.SetFloat("Speedud", moveY);
     }
 
     void Move() //Movement 

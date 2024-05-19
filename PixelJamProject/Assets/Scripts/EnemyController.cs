@@ -6,10 +6,8 @@ public class EnemyController : MonoBehaviour
 {
 
     public int health;
-    public int maxHealth = 3;
-    public int damage;
-    public float damageDelay = 1.0f;
-    float m_DamageCooldown = 0;
+    public int maxHealth = 100;
+    public int damage = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,15 +17,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_DamageCooldown > 0)
-            m_DamageCooldown -= Time.deltaTime;
+
     }
 
     public void TakeDamage(int amount)
     {
-        if (m_DamageCooldown > 0)
-            return;
-        m_DamageCooldown = damageDelay;
         health -= amount;
         if (health <= 0)
         {
@@ -40,4 +34,8 @@ public class EnemyController : MonoBehaviour
         TakeDamage(1);
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
 }
