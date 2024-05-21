@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     //References
     Rigidbody2D rb;
 
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speedud", moveY);
     }
 
-    void Move() //Movement 
+    void Move()
     {
         rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
     }
