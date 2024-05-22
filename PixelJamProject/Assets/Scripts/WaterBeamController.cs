@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class WaterBeamController : MonoBehaviour
 {
-    public GameObject waterBeamPrefab;
+    [SerializeField] private GameObject waterBeamPrefab;
+     
     private GameObject waterBeamInstance;
 
     // Update is called once per frame

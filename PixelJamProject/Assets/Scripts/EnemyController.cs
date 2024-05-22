@@ -5,20 +5,15 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
 
-    public int health;
-    public int maxHealth = 100;
+    [SerializeField] private int health, maxHealth = 100;
     public int damage = 1;
-    // Start is called before the first frame update
+
+
     void Start()
     {
         health = maxHealth;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public void TakeDamage(int amount)
     {
@@ -29,13 +24,9 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+
     void OnParticleCollision(GameObject other)
     {
         TakeDamage(1);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
     }
 }

@@ -4,23 +4,22 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public int health;
-    public int maxHealth = 10;
-    public float damageDelay = 1.0f;
+    [SerializeField] private int health, maxHealth = 10;
+    [SerializeField] private float damageDelay = 1.0f;
     float m_DamageCooldown = 0;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         health = maxHealth;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (m_DamageCooldown > 0)
             m_DamageCooldown -= Time.deltaTime;
     }
+
 
     public void TakeDamageP(int amount)
     {
@@ -33,6 +32,7 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 
     void OnCollisionEnter2D(Collision2D collision)
     {
