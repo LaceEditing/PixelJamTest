@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ennemy
   - Water
+  - Tree
   layers:
   - Default
   - TransparentFX
