@@ -34,7 +34,7 @@ public class EnemySpawner : MonoBehaviour
 
         IEnumerator BeginNextWave()
     {
-        yield return WaitForSeconds(waveInterval);
+        yield return new WaitForSeconds(waveInterval);
 
         if(currentWaveCount < waves.Count - 1)
         {
